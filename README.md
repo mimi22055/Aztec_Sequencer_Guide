@@ -128,9 +128,19 @@ sudo ufw allow 40400
 sudo ufw allow 8080
 ```
 
-
+<div  align="center">
+   
 #  Start Your Sequencer 🍥
 
+</div>
+
+* Create a Screen Session
+
+```
+screen -S aztec
+```
+
+  🔺🔺--- Execute below given command to Start Your node & Dont forget to make changes in it-
 
 ```
 aztec start --node --archiver --sequencer \
@@ -169,11 +179,115 @@ aztec start --node --archiver --sequencer \
 * The Successfull Running Should Look like this 👇
 
 
-![Screenshot 2025-05-02 172143](https://github.com/user-attachments/assets/73292689-ff6f-4c35-a74d-34bb0e427a9b)
+![Screenshot 2025-05-02 172143](https://github.com/user-attachments/assets/37ae2455-8b98-4642-bf14-0f5e1ed90cf2)
 
 
 
+# Detached and Attached From the Screen
+
+* For detached from screen session - `ctrl` , `a` + `d`
+
+* For Attach - 
+
+```
+screen -r aztec
+```
+
+<div  align="center">
+   
+# Get Apprentice Role In dc- 😙
+
+</div>
+
+
+📋 **Step 1: Get the latest proven block number**
+
+```
+curl -s -X POST -H 'Content-Type: application/json' \
+-d '{"jsonrpc":"2.0","method":"node_getL2Tips","params":[],"id":67}' \
+http://localhost:8080 | jq -r ".result.proven.number"
+```
+
+* Save this block number for the next steps
+
+* Example output: `12345`
+
+🔍 **Step 2: Generate your sync proof**
+
+```
+curl -s -X POST -H 'Content-Type: application/json' \
+-d '{"jsonrpc":"2.0","method":"node_getArchiveSiblingPath","params":["BLOCK_NUMBER","BLOCK_NUMBER"],"id":67}' \
+http://localhost:8080 | jq -r ".result"
+```
+
+* Replace both `BLOCK_NUMBER` with your: (check step1)
+
+* This will output a long base64-encoded string - (Copy it completely)
+
+
+✅ **Step 3: Register with Discord**
+
+
+* join dc- https://discord.gg/aztec 
+
+* Go to `#operators│start-here` Channel
+
+* Type `/operator start` 
+
+![image](https://github.com/user-attachments/assets/bb4985b0-f98a-43ed-b0c1-9f7e95f6de3c)
+
+* Now it will promt u to enter `address` , `block number` , `proof`
+
+* Place your evm wallet address in `address` section
+
+* Place block-number From the `Step-1` 
+
+* Place sync Proof from `Step-2` 
+
+
+* Success message should look like this! & U will get the role!
+
+![Screenshot 2025-05-02 175859](https://github.com/user-attachments/assets/5db4bbac-a2d5-463c-a9c1-ea7ae18b00a5)
+
+![Screenshot 2025-05-02 180049](https://github.com/user-attachments/assets/cb25480d-01ae-45d7-9017-c269e2cc54a6)
 
 
 
+<div  align="center">
+   
+# Register as a Validator 🔗⛓️
 
+</div>
+
+* Replace `Alchemy_Sepolia_Rpc` with your actual sepolia rpc url from alchemy.
+
+* Replace `your-private-key` with your evm wallet pvt key! Dont forget  to add `0x` at starting
+
+* Replace `your-validator-address` with your evm wallet address 
+
+* Replace `your-validator-address` with your evm wallet address
+
+
+```
+aztec add-l1-validator \
+  --l1-rpc-urls Alchemy_Sepolia_Rpc \
+  --private-key your-private-key \
+  --attester your-validator-address \
+  --proposer-eoa your-validator-address \
+  --staking-asset-handler 0xF739D03e98e23A7B65940848aBA8921fF3bAc4b2 \
+  --l1-chain-id 11155111
+```
+
+
+
+* Note- ![image](https://github.com/user-attachments/assets/50e7e432-c2a1-4356-afe8-9d47a48f8e68)
+
+
+
+👉 Join TG for more Updates: https://telegram.me/cryptogg
+
+If U have any issue then open a issue on this repo or Dm me on TG~
+
+Thank U! 👨🏻‍💻
+
+Happy Coding💗
