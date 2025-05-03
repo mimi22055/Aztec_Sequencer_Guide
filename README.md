@@ -113,6 +113,8 @@ aztec-up alpha-testnet
 
 https://sepolia-faucet.pk910.de/
 
+https://www.alchemy.com/faucets/ethereum-sepolia
+
 
 
 # Allow Incoming connections on Ports 
