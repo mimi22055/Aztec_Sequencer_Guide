@@ -147,20 +147,20 @@ screen -S aztec
 ```
 aztec start --node --archiver --sequencer \
   --network alpha-testnet \
-  --l1-rpc-urls Alchemy_Sepolia_RPC \
-  --l1-consensus-host-urls DRPC_eth-beacon_sepolia_RPC \
+  --l1-rpc-urls Eth_Sepolia_RPC \
+  --l1-consensus-host-urls Eth-beacon_sepolia_RPC \
   --sequencer.validatorPrivateKey 0xYourPrivateKey \
   --sequencer.coinbase YourAddress \
   --p2p.p2pIp Your_ip
 ```
 
 
-* Replace `Alchemy_Sepolia_RPC` with your actual one!         -From https://dashboard.alchemy.com/
+* Replace `Eth_Sepolia_RPC` with your actual one!         -From https://developer.metamask.io/key/active-endpoints
 
 ![image](https://github.com/user-attachments/assets/3ccd2f62-57ab-4452-a1da-4ba9a1bf5924)
 
 
-* Replace `DRPC_eth-beacon_sepolia_RPC` with your actual one            -From https://drpc.org/dashboard
+* Replace `Eth-beacon_sepolia_RPC` with your actual one            -From https://console.chainstack.com/projects/
 
 ![image](https://github.com/user-attachments/assets/7c73dc77-e67a-4cbe-9636-18f7e4a591f0)
 
@@ -261,7 +261,7 @@ http://localhost:8080 | jq -r ".result"
 
 </div>
 
-* Replace `Alchemy_Sepolia_Rpc` with your actual sepolia rpc url from alchemy.
+* Replace `Eth_Sepolia_Rpc` with your actual sepolia rpc url from Metamask developer.
 
 * Replace `your-private-key` with your evm wallet pvt key! Dont forget  to add `0x` at starting
 
@@ -272,7 +272,7 @@ http://localhost:8080 | jq -r ".result"
 
 ```
 aztec add-l1-validator \
-  --l1-rpc-urls Alchemy_Sepolia_Rpc \
+  --l1-rpc-urls Eth_Sepolia_Rpc \
   --private-key your-private-key \
   --attester your-validator-address \
   --proposer-eoa your-validator-address \
