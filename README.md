@@ -184,6 +184,28 @@ aztec start --node --archiver --sequencer \
 ![Screenshot 2025-05-02 172143](https://github.com/user-attachments/assets/37ae2455-8b98-4642-bf14-0f5e1ed90cf2)
 
 
+# ♦️ Use this Template for saving data:
+
+ ------👇Save These Info/Data👇 ------
+
+Aztec Sequencer Node ( XXXXX dc)
+
+• Ethereum sepolia rpc : 
+
+• Beacon_sepolia_RPC : 
+
+• PVT KEY : 
+
+• MM Public Address : 
+
+• IP ( cloud vps) : 
+
+• Block Number : 
+
+• Base64 encoded string : 
+
+------ 👆Save These Info/Data👆 ------
+
 
 # Detached and Attached From the Screen
 
