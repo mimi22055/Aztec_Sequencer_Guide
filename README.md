@@ -155,12 +155,23 @@ aztec start --node --archiver --sequencer \
 ```
 
 
-* Replace `Eth_Sepolia_RPC` with your actual one!         -From https://developer.metamask.io/key/active-endpoints
+* Replace `Eth_Sepolia_RPC` with your actual one!         -From (as per video)
+
+https://developer.metamask.io/key/active-endpoints
+
+* Replace `Eth_Sepolia_RPC` with your actual one!         -From (as per screenshot 👇)
+
+https://www.alchemy.com
 
 ![image](https://github.com/user-attachments/assets/3ccd2f62-57ab-4452-a1da-4ba9a1bf5924)
 
 
-* Replace `Eth-beacon_sepolia_RPC` with your actual one            -From https://console.chainstack.com/projects/
+* Replace `Eth-beacon_sepolia_RPC` with your actual one            -From (As per video)
+ https://console.chainstack.com/projects/
+
+* Replace `Eth-beacon_sepolia_RPC` with your actual one            -From (As per Screenshot 👇)
+
+https://lb.drpc.org
 
 ![image](https://github.com/user-attachments/assets/7c73dc77-e67a-4cbe-9636-18f7e4a591f0)
 
