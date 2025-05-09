@@ -171,7 +171,7 @@ https://www.alchemy.com
 
 * Replace `Eth-beacon_sepolia_RPC` with your actual one            -From (As per Screenshot 👇)
 
-https://lb.drpc.org
+[(https://drpc.org/dashboard)](https://drpc.org/dashboard)
 
 ![image](https://github.com/user-attachments/assets/7c73dc77-e67a-4cbe-9636-18f7e4a591f0)
 
