@@ -130,6 +130,38 @@ sudo ufw allow 40400
 sudo ufw allow 8080
 ```
 
+# Get Seapolia and Beacon API Key's Free of Cost
+
+* Go to - https://tinyurl.com/y8v7tm2d
+
+* Manually Sign up with Email address- u will rcvd 100$ voucher- (Dont sign up with Google)
+
+* Select Ethereum Sepolia
+
+* Scroll Down and Select the Growth Plan for which RPC u need, (Sepolia or Beacon) 
+
+* Click on `Select Voucher`
+
+* Select `50$ Voucher`
+
+* Now Click on `Pay with Balance`
+
+* Here we go... U got your API key for free!
+
+* U can see your Api key on API section!
+
+![Screenshot 2025-05-15 172028](https://github.com/user-attachments/assets/409a5c1e-9c2d-4653-a7e0-2e24711d0470)
+
+
+* More Other Sites!
+
+https://drpc.org/dashboard
+
+https://developer.metamask.io/key/active-endpoints
+
+https://www.alchemy.com
+
+
 <div  align="center">
    
 #  Start Your Sequencer 🍥
@@ -155,25 +187,10 @@ aztec start --node --archiver --sequencer \
 ```
 
 
-* Replace `Eth_Sepolia_RPC` with your actual one!         -From (as per video)
+* Replace `Eth_Sepolia_RPC` with your actual one!         -follow above steps
 
-https://developer.metamask.io/key/active-endpoints
+* Replace `Eth-beacon_sepolia_RPC` with your actual one            -follow above steps
 
-* Replace `Eth_Sepolia_RPC` with your actual one!         -From (as per screenshot 👇)
-
-https://www.alchemy.com
-
-![image](https://github.com/user-attachments/assets/3ccd2f62-57ab-4452-a1da-4ba9a1bf5924)
-
-
-* Replace `Eth-beacon_sepolia_RPC` with your actual one            -From (As per video)
- https://console.chainstack.com/projects/
-
-* Replace `Eth-beacon_sepolia_RPC` with your actual one            -From (As per Screenshot 👇)
-
-[(https://drpc.org/dashboard)](https://drpc.org/dashboard)
-
-![image](https://github.com/user-attachments/assets/7c73dc77-e67a-4cbe-9636-18f7e4a591f0)
 
 * Replace `0xYourPrivateKey` with your actual EVM wallet pvt key    🔺 (dont forget to add 0x at starting)
 
