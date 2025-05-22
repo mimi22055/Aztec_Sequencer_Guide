@@ -336,6 +336,44 @@ aztec add-l1-validator \
 
 
 
+<div align="center">
+
+# 📈 **How to Upgrade/Downgrade to 0.85.x Version** 🧃
+
+</div>
+
+* If u are getting Errors like this then u have to downgrade to version 0.85.x
+
+![1000170354](https://github.com/user-attachments/assets/3e86b80b-16da-4a22-be84-8de8b23e4628)
+
+
+* Step-1) Delete Aztec
+
+```
+rm -r ~/.aztec/alpha-testnet
+```
+
+* Step-2) Stop & remove all docker images and containers
+
+```
+docker system prune -a --volumes -f
+```
+
+* Step-3) Install the Aztec
+
+```
+aztec-up 0.85.0-alpha-testnet.9
+```
+
+* Step-4) Now follow the `Start Your Sequencer` Steps: 🪜
+
+
+
+
+
+
+
+
 👉 Join TG for more Updates: https://telegram.me/cryptogg
 
 If U have any issue then open a issue on this repo or Dm me on TG~
