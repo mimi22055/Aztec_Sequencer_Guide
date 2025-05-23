@@ -338,7 +338,7 @@ aztec add-l1-validator \
 
 <div align="center">
 
-# 📈 How to Upgrade 🧃
+# 📈 How to Upgrade (Old User)🧃
 
 </div>
 
