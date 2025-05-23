@@ -336,6 +336,36 @@ aztec add-l1-validator \
 
 
 
+<div align="center">
+
+# 📈 How to Upgrade 🧃
+
+</div>
+
+* 🪜Step-1) Move to Aztec Screen 
+
+```
+screen -r aztec
+```
+
+* 🪜Step-2) Stop your node if already running: with `ctrl+c`
+
+
+* 🪜Step-3) Update with-:
+
+```
+aztec-up alpha-testnet
+```
+
+* 🪜 Step-4) Start your node with `Start` command: 
+
+
+* 📣Note-: If u got error like these between the logs, then ignore these error just look for the sync block:
+
+‼️See Screenshot below 👇 
+
+
+![1000170738](https://github.com/user-attachments/assets/a482d01a-3e3c-4e03-bc79-f54c27d60d94)
 
 
 
