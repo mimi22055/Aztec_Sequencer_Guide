@@ -338,34 +338,34 @@ aztec add-l1-validator \
 
 <div align="center">
 
-# 📈 How to Upgrade (Old User)🧃
+# 📈 Upgrade to v0.87.6 🧃
 
 </div>
 
-* 🪜Step-1) Move to Aztec Screen 
+ 🪜Step-1) Move to Aztec Screen 
 
 ```
 screen -r aztec
 ```
 
-* 🪜Step-2) Stop your node if already running: with `ctrl+c`
+ 🪜Step-2) Stop your node if already running: with `ctrl+c`
 
 
-* 🪜Step-3) Update with-:
+🪜Step-3) Update with-:
 
 ```
-aztec-up alpha-testnet
+aztec-up latest
 ```
 
-* 🪜 Step-4) Start your node with `Start` command: 
+ 🪜 Step-4) Start your node with `Start` command: 
 
 
-* 📣Note-: If u got error like these between the logs, then ignore these error just look for the sync block:
+* 📣Note-: If your logs are like this: Then you are good to go: Your sequencers working fine: 
 
-‼️See Screenshot below 👇 
+ 
 
+![image](https://github.com/user-attachments/assets/b2f16ac1-1caa-4f35-9666-885bc11558d3)
 
-![1000170738](https://github.com/user-attachments/assets/a482d01a-3e3c-4e03-bc79-f54c27d60d94)
 
 
 
