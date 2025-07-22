@@ -105,7 +105,7 @@ aztec -h
 * Set the correct version for the testnet
 
 ```
-aztec-up latest
+aztec-up 1.1.2
 ```
 
 
@@ -174,14 +174,14 @@ https://www.alchemy.com
 screen -S aztec
 ```
 
-  🔺🔺--- Execute below given command to Start Your node & Dont forget to make changes in it-
+#### 🔺🔺--- Execute below given command to Start Your node & Dont forget to make changes in it-
 
 ```
 aztec start --node --archiver --sequencer \
   --network alpha-testnet \
   --l1-rpc-urls Eth_Sepolia_RPC \
   --l1-consensus-host-urls Eth-beacon_sepolia_RPC \
-  --sequencer.validatorPrivateKey 0xYourPrivateKey \
+  --sequencer.validatorPrivateKeys 0xYourPrivateKey \
   --sequencer.coinbase YourAddress \
   --p2p.p2pIp Your_ip
 ```
@@ -338,7 +338,7 @@ aztec add-l1-validator \
 
 <div align="center">
 
-# 📈 Upgrade to v0.87.6 🧃
+# 📈 Upgrade to v1.1.2 🧃
 
 </div>
 
@@ -351,20 +351,25 @@ screen -r aztec
  🪜Step-2) Stop your node if already running: with `ctrl+c`
 
 
-🪜Step-3) Update with-:
+🪜Step-3) Delete old data & Update with-:
 
 ```
-aztec-up latest
+rm -rf ~/.aztec/alpha-testnet/data/
 ```
 
- 🪜 Step-4) Start your node with `Start` command: 
+```
+aztec-up 1.1.2
+```
+
+ 🪜 Step-4) Start your node with [Start](https://github.com/Mayankgg01/Aztec_Sequencer_Guide/edit/main/README.md#----execute-below-given-command-to-start-your-node--dont-forget-to-make-changes-in-it-) command: 
 
 
 * 📣Note-: If your logs are like this: Then you are good to go: Your sequencers working fine: 
 
  
 
-![image](https://github.com/user-attachments/assets/b2f16ac1-1caa-4f35-9666-885bc11558d3)
+<img width="2140" height="825" alt="image" src="https://github.com/user-attachments/assets/d75fcff8-35e7-4249-87be-e6772ba25fa0" />
+
 
 
 
