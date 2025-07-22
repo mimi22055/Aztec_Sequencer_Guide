@@ -361,7 +361,7 @@ rm -rf ~/.aztec/alpha-testnet/data/
 aztec-up 1.1.2
 ```
 
- 🪜 Step-4) Start your node with [Start](https://github.com/Mayankgg01/Aztec_Sequencer_Guide/edit/main/README.md#----execute-below-given-command-to-start-your-node--dont-forget-to-make-changes-in-it-) command: 
+ 🪜 Step-4) Start your node with [Start](https://github.com/Mayankgg01/Aztec_Sequencer_Guide?tab=readme-ov-file#----execute-below-given-command-to-start-your-node--dont-forget-to-make-changes-in-it-) command: 
 
 
 * 📣Note-: If your logs are like this: Then you are good to go: Your sequencers working fine: 
